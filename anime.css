@@ -1,0 +1,44 @@
+body { color:#c32422;
+}
+p.Spiderman{  /*Seleccionar solo los que contengan la palabra dicha*/
+    color:rgba(23, 127, 187, 0.799);
+}
+
+p.Especial{color:rgb(50, 31, 189);}
+
+div p {color:black;}
+
+div h2, div h3{color:rgba(52, 94, 244, 0.615);}
+
+*{ /*Selector Universal para definir tamaño de letra y color, eso si dependerá de si no hemos seleccionado alguna palabra*/
+    font: size 24px;
+    color:rgba(55, 46, 46, 0.829);
+}
+
+.color{
+    border:5px rgba(74, 122, 200, 0.692) groove;
+
+    /*border style:groove -- poner borde sin especificar medidas*/
+    /*border color: red -- poner color al borde*/
+
+}
+
+#fondo{
+    background-color:rgb(10, 5, 8);
+    height:720px;
+    background-image: url("opuesto.jpg");
+    background-size: 720px 500px;
+    background-repeat:repeat-y;
+    background-position:center top;
+}
+
+.margen {
+background-color:chocolate;
+margin: 15px 20px 25px 30px;
+padding: 30px 25px 20px 15px;
+border:solid 2px black;
+height:100px;
+width: 50px;
+overflow:scroll;
+outline: 1px coral;
+}
